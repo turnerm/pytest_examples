@@ -51,7 +51,3 @@ def test_create_padded():
     # TODO: write a test that checks if create_padded_fg works as expected
     """
     assert True
-
-
-
-

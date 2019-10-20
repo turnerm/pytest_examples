@@ -1,6 +1,7 @@
 from unittest import mock
+from datetime import datetime
 
-from part2.is_it_the_weekend import is_weekend
+import part2.is_it_the_weekend
 
 
 def test_is_weekend():
