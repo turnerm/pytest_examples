@@ -43,15 +43,14 @@ def test_get_a_and_b():
     # TODO: write a test that checks if get_a_and_b returns reasonable values
     # hint: the should difference to fg_shape
     """
-    assert True
+    a, b = get_a_and_b(10, 5)
+    assert b - a == 5
 
 
 def test_create_padded():
     """
     # TODO: write a test that checks if create_padded_fg works as expected
     """
-    assert True
-
-
-
-
+    fg = np.ones((3, 3))
+    fg_padded = create_padded_fg(fg, (5,5))
+    assert fg_padded.shape == (5,5)
